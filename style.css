@@ -59,6 +59,8 @@ body {
 .apresentacao__links__link__campeao {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 15px;
     border: 2px solid #ecec53;
     width: 310px;
     text-align: center;
@@ -66,34 +68,21 @@ body {
     padding: 21.5px 0;
 }
 
-.apresentacao__links__link__campeao__imagem {
-     padding: 0 10px 0 60px;
-}
-
-.apresentacao__links__link__campeao__texto {
-    text-decoration: none;
-    font-size: 24px;
-    color: white;
-    font-family: "Montserra", sans-serif;
-    font-weight: 600;
-}
 
 .apresentacao__links__link__biografia {
     display: flex;
     align-items: center;
+    gap: 15px;
+    justify-content: center;
     border: 2px solid #ecec53;
     width: 310px;
     text-align: center;
     border-radius: 13px;
-    padding: 27.5px 0;
+    padding: 28.5px 0;
 
 }
 
-.apresentacao__links__link__biografia__imagem {
-    padding: 0 10px 0 60px;
-}
-
-.apresentacao__links__link__biografia__texto {
+.apresentacao__links__link__texto {
     text-decoration: none;
     color: white;
     font-family: "Montserra", sans-serif;
