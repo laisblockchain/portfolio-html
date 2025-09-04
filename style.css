@@ -68,6 +68,11 @@ body {
     padding: 21.5px 0;
 }
 
+.apresentacao__links__link__campeao:hover {
+    background-color: #272727;
+    cursor: pointer;
+}
+
 
 .apresentacao__links__link__biografia {
     display: flex;
@@ -82,13 +87,18 @@ body {
 
 }
 
+.apresentacao__links__link__biografia:hover {
+    background-color: #272727;
+    cursor: pointer;
+}
+
 .apresentacao__links__link__texto {
     text-decoration: none;
     color: white;
     font-family: "Montserra", sans-serif;
     font-weight: 600;
     font-size: 24px;
-    
+
 }
 
 .apresentacao__imagem {
